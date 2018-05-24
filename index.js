@@ -1,3 +1,3 @@
-let x = Math.random() * 75;
+let x = Math.ceil(Math.random()) * 75;
 
 console.log(x);
