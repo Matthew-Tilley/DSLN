@@ -1,22 +1,32 @@
-function getWB(){
+function getNumbers(){
+    
+    let WB;
+    let PB;
+    
+    
+    function getWB(){
 
-    let WB = Math.ceil(Math.random() * 69 );
+    WB = Math.ceil(Math.random() * 69 );
     
     return WB;
     
-}
-
-
-function getPB(){
+    };   //END FUNCTION getWB
     
-    let PB = Math.ceil(Math.random() * 26);
+    
+    
+    function getPB(){
+    
+    PB = Math.ceil(Math.random() * 26);
     
     return PB;
-}
+    
+    };   //END FUNCTION getPB
+    
+  
+    console.log( getWB(), getPB() );
+    
+};   //END FUNCTION getNumbers
 
 
+getNumbers();
 
-console.log(getWB());
-
-
-console.log(getPB());
