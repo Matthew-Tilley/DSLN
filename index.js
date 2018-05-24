@@ -1,9 +1,22 @@
-function getX(){
+function getWB(){
 
-    let x = Math.ceil(Math.random() * 69 );
+    let WB = Math.ceil(Math.random() * 69 );
     
-    return x;
+    return WB;
     
 }
 
-console.log(getX());
+
+function getPB(){
+    
+    let PB = Math.ceil(Math.random() * 26);
+    
+    return PB;
+}
+
+
+
+console.log(getWB());
+
+
+console.log(getPB());
