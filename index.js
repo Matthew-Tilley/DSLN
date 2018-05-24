@@ -1,7 +1,9 @@
 function getX(){
 
-let x = Math.ceil(Math.random() * 75 );
-
+    let x = Math.ceil(Math.random() * 75 );
+    
+    return x;
+    
 }
 
-console.log(x);
+console.log(getX());
