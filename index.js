@@ -32,9 +32,9 @@ function getNumbers(){
         {
             getWB();
             randomDraw.push(WB);
-            
-        }
+        };
     
+    console.log(randomDraw);
     console.log(randomDraw.toString());
     
 };   //END FUNCTION getNumbers
