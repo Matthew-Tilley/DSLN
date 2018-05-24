@@ -1,1 +1,3 @@
-console.log(Math.random());
+let x = Math.random();
+
+console.log(x);
