@@ -1,6 +1,6 @@
 function getX(){
 
-    let x = Math.ceil(Math.random() * 75 );
+    let x = Math.ceil(Math.random() * 69 );
     
     return x;
     
