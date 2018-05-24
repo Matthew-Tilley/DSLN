@@ -1,3 +1,3 @@
-let x = Math.random();
+let x = Math.random() * 75;
 
 console.log(x);
