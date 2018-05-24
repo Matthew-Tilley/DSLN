@@ -3,6 +3,8 @@ function getNumbers(){
     let WB;
     let PB;
     
+    let getDraw = [];
+    
     
     function getWB(){
 
