@@ -3,7 +3,7 @@ function getNumbers(){
     let WB;
     let PB;
     
-    let getDraw = [];
+    let randomDraw = [];
     
     
     function getWB(){
@@ -27,8 +27,20 @@ function getNumbers(){
   
     console.log( getWB(), getPB() );
     
+    
+    for (let i=1; i<=5; i++)
+        {
+            getWB();
+            randomDraw.push(WB);
+            
+        }
+    
+    console.log(randomDraw.toString());
+    
 };   //END FUNCTION getNumbers
 
 
 getNumbers();
+
+
 
