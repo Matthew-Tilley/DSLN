@@ -6,6 +6,13 @@ function getNumbers(){
     let randomDraw = [];
     
     
+    //FILTER TO HELP WITH NUMERIC SORTING
+    function comparator(num1, num2){
+        
+        return num1 - num2;   
+    }
+    
+    
     //FUNCTION FOR GETTING AN INDIVIDUAL WHITE BALL
     function getWB(){
 
@@ -37,11 +44,6 @@ function getNumbers(){
     
     
     
-    function comparator(num1, num2){
-        
-        return num1 - num2;
-        
-    }
     
     
     randomDraw.sort(comparator);
