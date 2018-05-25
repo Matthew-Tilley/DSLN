@@ -15,7 +15,7 @@ function getNumbers(){
     
     //FUNCTION FOR GETTING AN INDIVIDUAL WHITE BALL
     function getWB(){
-
+        
     WB = Math.ceil(Math.random() * 69 );
     
     return WB;
@@ -36,10 +36,19 @@ function getNumbers(){
    
     
     //LOOP TO GET THE FIVE WHITE BALLS
+    //ALSO RESOLVES POTENTIAL DUPLICATES
     for (let i=1; i<=5; i++)
         {
+            
             getWB();
-            randomDraw.push(WB);
+            
+            if (randomDraw.indexOf(WB) !== -1)
+                {
+                    getWB;
+                }
+            
+            randomDraw.push(WB);     
+            
         };
     
     
