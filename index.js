@@ -35,7 +35,20 @@ function getNumbers(){
             randomDraw.push(WB);
         };
     
-    randomDraw.sort()
+    
+    
+    function comparator(num1, num2){
+        
+        return num1 - num2;
+        
+    }
+    
+    
+    randomDraw.sort(comparator);
+    
+    
+    
+    
     
     
     //THIS SECTION GETS THE POWERBALL
