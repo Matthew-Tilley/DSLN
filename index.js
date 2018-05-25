@@ -25,7 +25,7 @@ function getNumbers(){
     };   //END FUNCTION getPB
     
   
-    console.log( getWB(), getPB() );
+   
     
     
     for (let i=1; i<=5; i++)
@@ -34,13 +34,17 @@ function getNumbers(){
             randomDraw.push(WB);
         };
     
+    PB = getPB();
+    randomDraw.push(PB);
+    
     console.log(randomDraw);
-    console.log(randomDraw.toString());
     
 };   //END FUNCTION getNumbers
 
 
 getNumbers();
+
+
 
 
 
